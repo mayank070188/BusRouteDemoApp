@@ -17,6 +17,7 @@ class BusRouteViewController: UIViewController {
     var busRouteListArray: [BusRouteListModel]? = []
     var busRouteViewModel: BusRouteViewModel!
     var refreshTimer: Timer?
+    var isDataFetched: Bool?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class BusRouteViewController: UIViewController {
     func initialSetup() {
         spinner.startAnimating()
         refreshTimer = Timer.scheduledTimer(timeInterval: 60, target: self, selector: #selector(refreshBusRouteList), userInfo: nil, repeats: true)
+        isDataFetched = false
     }
     
     func getBusRouteData() {
@@ -46,6 +48,7 @@ class BusRouteViewController: UIViewController {
             
             self?.busRouteListArray = self?.busRouteViewModel.showOnlyFutureDateBuses(busRouteListModelArray: busRoutesArray)
             DispatchQueue.main.async {
+                self?.isDataFetched = true
                 self?.busRouteTableView.reloadData()
                 self?.spinner.stopAnimating()
             }
@@ -76,6 +79,16 @@ class BusRouteViewController: UIViewController {
 //MARK: - UITableViewDataSource
 extension BusRouteViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if busRouteListArray?.count == 0 && isDataFetched ?? false {
+            let noDataLabel: UILabel  = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.bounds.size.width, height: tableView.bounds.size.height))
+            noDataLabel.text          = "No buses available."
+            noDataLabel.textColor     = UIColor.black
+            noDataLabel.textAlignment = .center
+            tableView.backgroundView  = noDataLabel
+            tableView.separatorStyle  = .none
+        } else {
+            tableView.backgroundView = nil
+        }
         return busRouteListArray?.count ?? 0
     }
     
