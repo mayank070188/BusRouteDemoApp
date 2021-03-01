@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8056A4A725EA31B600B35964 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8056A4A625EA31B600B35964 /* UIView+Utils.swift */; };
+		8076F89A25EBFA64000F01DB /* UIAlertController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076F89925EBFA64000F01DB /* UIAlertController+Utils.swift */; };
+		8076F89C25EBFA64000F01DB /* BusRouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076F89B25EBFA64000F01DB /* BusRouteTableViewCell.swift */; };
+		807D924F25E8DE0A00FAEA12 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D924E25E8DE0A00FAEA12 /* CoreDataManager.swift */; };
+		807D925325E8DE3A00FAEA12 /* BusRoute.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 807D925125E8DE3A00FAEA12 /* BusRoute.xcdatamodeld */; };
+		807D925A25E8EA1600FAEA12 /* BusRouteList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D925825E8EA1500FAEA12 /* BusRouteList+CoreDataClass.swift */; };
+		807D925B25E8EA1600FAEA12 /* BusRouteList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807D925925E8EA1600FAEA12 /* BusRouteList+CoreDataProperties.swift */; };
+		8088FAED25E941860002FCB0 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088FAEC25E941860002FCB0 /* Date+Utils.swift */; };
+		808FFA8C25E7D1B2006BCC49 /* BusRouteListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808FFA8B25E7D1B2006BCC49 /* BusRouteListModel.swift */; };
+		808FFA8E25E80D2C006BCC49 /* MockBusRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808FFA8D25E80D2C006BCC49 /* MockBusRouteViewModel.swift */; };
+		80DB5CAF25E67BC500A631CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CAE25E67BC500A631CA /* AppDelegate.swift */; };
+		80DB5CB125E67BC500A631CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CB025E67BC500A631CA /* SceneDelegate.swift */; };
+		80DB5CB625E67BC500A631CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DB5CB425E67BC500A631CA /* Main.storyboard */; };
+		80DB5CB825E67BD400A631CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DB5CB725E67BD400A631CA /* Assets.xcassets */; };
+		80DB5CBB25E67BD400A631CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DB5CB925E67BD400A631CA /* LaunchScreen.storyboard */; };
+		80DB5CC625E67BD500A631CA /* BusRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CC525E67BD500A631CA /* BusRouteTests.swift */; };
+		80DB5CD825E6827800A631CA /* RouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CD725E6827800A631CA /* RouteModel.swift */; };
+		80DB5CDF25E6949000A631CA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CDE25E6949000A631CA /* NetworkManager.swift */; };
+		80DB5CE125E69BDF00A631CA /* BusRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CE025E69BDF00A631CA /* BusRouteViewController.swift */; };
+		80DB5CE325E6A50400A631CA /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CE225E6A50400A631CA /* DashboardViewController.swift */; };
+		80DB5CE525E797F400A631CA /* BusRouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80DB5CE425E797F400A631CA /* BusRouteViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80DB5CC225E67BD500A631CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80DB5CA325E67BC500A631CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80DB5CAA25E67BC500A631CA;
+			remoteInfo = BusRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8056A4A625EA31B600B35964 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		8076F89925EBFA64000F01DB /* UIAlertController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Utils.swift"; sourceTree = "<group>"; };
+		8076F89B25EBFA64000F01DB /* BusRouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteTableViewCell.swift; sourceTree = "<group>"; };
+		807D924E25E8DE0A00FAEA12 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		807D925225E8DE3A00FAEA12 /* BusRoute.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusRoute.xcdatamodel; sourceTree = "<group>"; };
+		807D925825E8EA1500FAEA12 /* BusRouteList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BusRouteList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		807D925925E8EA1600FAEA12 /* BusRouteList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BusRouteList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8088FAEC25E941860002FCB0 /* Date+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		808FFA8B25E7D1B2006BCC49 /* BusRouteListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteListModel.swift; sourceTree = "<group>"; };
+		808FFA8D25E80D2C006BCC49 /* MockBusRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBusRouteViewModel.swift; sourceTree = "<group>"; };
+		80DB5CAB25E67BC500A631CA /* BusRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB5CAE25E67BC500A631CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80DB5CB025E67BC500A631CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80DB5CB525E67BC500A631CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80DB5CB725E67BD400A631CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80DB5CBA25E67BD400A631CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80DB5CBC25E67BD400A631CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB5CC125E67BD500A631CA /* BusRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DB5CC525E67BD500A631CA /* BusRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteTests.swift; sourceTree = "<group>"; };
+		80DB5CC725E67BD500A631CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DB5CD725E6827800A631CA /* RouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModel.swift; sourceTree = "<group>"; };
+		80DB5CDE25E6949000A631CA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		80DB5CE025E69BDF00A631CA /* BusRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteViewController.swift; sourceTree = "<group>"; };
+		80DB5CE225E6A50400A631CA /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		80DB5CE425E797F400A631CA /* BusRouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80DB5CA825E67BC500A631CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB5CBE25E67BD500A631CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		807D925025E8DE2000FAEA12 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				807D925125E8DE3A00FAEA12 /* BusRoute.xcdatamodeld */,
+				807D925825E8EA1500FAEA12 /* BusRouteList+CoreDataClass.swift */,
+				807D925925E8EA1600FAEA12 /* BusRouteList+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		80DB5CA225E67BC500A631CA = {
+			isa = PBXGroup;
+			children = (
+				80DB5CAD25E67BC500A631CA /* BusRoute */,
+				80DB5CC425E67BD500A631CA /* BusRouteTests */,
+				80DB5CAC25E67BC500A631CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80DB5CAC25E67BC500A631CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CAB25E67BC500A631CA /* BusRoute.app */,
+				80DB5CC125E67BD500A631CA /* BusRouteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80DB5CAD25E67BC500A631CA /* BusRoute */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CAE25E67BC500A631CA /* AppDelegate.swift */,
+				80DB5CB025E67BC500A631CA /* SceneDelegate.swift */,
+				807D925025E8DE2000FAEA12 /* CoreData */,
+				80DB5CDD25E6947D00A631CA /* Managers */,
+				80DB5CD525E680A400A631CA /* Utilities */,
+				80DB5CD425E6809500A631CA /* ViewModel */,
+				80DB5CD325E6808F00A631CA /* Views */,
+				80DB5CD225E6808800A631CA /* Model */,
+				80DB5CB725E67BD400A631CA /* Assets.xcassets */,
+				80DB5CBC25E67BD400A631CA /* Info.plist */,
+			);
+			path = BusRoute;
+			sourceTree = "<group>";
+		};
+		80DB5CC425E67BD500A631CA /* BusRouteTests */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CC525E67BD500A631CA /* BusRouteTests.swift */,
+				808FFA8D25E80D2C006BCC49 /* MockBusRouteViewModel.swift */,
+				80DB5CC725E67BD500A631CA /* Info.plist */,
+			);
+			path = BusRouteTests;
+			sourceTree = "<group>";
+		};
+		80DB5CD225E6808800A631CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CD725E6827800A631CA /* RouteModel.swift */,
+				808FFA8B25E7D1B2006BCC49 /* BusRouteListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80DB5CD325E6808F00A631CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CE225E6A50400A631CA /* DashboardViewController.swift */,
+				80DB5CE025E69BDF00A631CA /* BusRouteViewController.swift */,
+				8076F89B25EBFA64000F01DB /* BusRouteTableViewCell.swift */,
+				80DB5CD625E680DA00A631CA /* StoryBoard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80DB5CD425E6809500A631CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CE425E797F400A631CA /* BusRouteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		80DB5CD525E680A400A631CA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8088FAEC25E941860002FCB0 /* Date+Utils.swift */,
+				8056A4A625EA31B600B35964 /* UIView+Utils.swift */,
+				8076F89925EBFA64000F01DB /* UIAlertController+Utils.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		80DB5CD625E680DA00A631CA /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CB425E67BC500A631CA /* Main.storyboard */,
+				80DB5CB925E67BD400A631CA /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		80DB5CDD25E6947D00A631CA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				80DB5CDE25E6949000A631CA /* NetworkManager.swift */,
+				807D924E25E8DE0A00FAEA12 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80DB5CAA25E67BC500A631CA /* BusRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB5CCA25E67BD500A631CA /* Build configuration list for PBXNativeTarget "BusRoute" */;
+			buildPhases = (
+				80DB5CA725E67BC500A631CA /* Sources */,
+				80DB5CA825E67BC500A631CA /* Frameworks */,
+				80DB5CA925E67BC500A631CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusRoute;
+			productName = BusRoute;
+			productReference = 80DB5CAB25E67BC500A631CA /* BusRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80DB5CC025E67BD500A631CA /* BusRouteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80DB5CCD25E67BD500A631CA /* Build configuration list for PBXNativeTarget "BusRouteTests" */;
+			buildPhases = (
+				80DB5CBD25E67BD500A631CA /* Sources */,
+				80DB5CBE25E67BD500A631CA /* Frameworks */,
+				80DB5CBF25E67BD500A631CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DB5CC325E67BD500A631CA /* PBXTargetDependency */,
+			);
+			name = BusRouteTests;
+			productName = BusRouteTests;
+			productReference = 80DB5CC125E67BD500A631CA /* BusRouteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80DB5CA325E67BC500A631CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Mayank Mathur";
+				TargetAttributes = {
+					80DB5CAA25E67BC500A631CA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					80DB5CC025E67BD500A631CA = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 80DB5CAA25E67BC500A631CA;
+					};
+				};
+			};
+			buildConfigurationList = 80DB5CA625E67BC500A631CA /* Build configuration list for PBXProject "BusRoute" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80DB5CA225E67BC500A631CA;
+			productRefGroup = 80DB5CAC25E67BC500A631CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80DB5CAA25E67BC500A631CA /* BusRoute */,
+				80DB5CC025E67BD500A631CA /* BusRouteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80DB5CA925E67BC500A631CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB5CBB25E67BD400A631CA /* LaunchScreen.storyboard in Resources */,
+				80DB5CB825E67BD400A631CA /* Assets.xcassets in Resources */,
+				80DB5CB625E67BC500A631CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB5CBF25E67BD500A631CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80DB5CA725E67BC500A631CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807D925A25E8EA1600FAEA12 /* BusRouteList+CoreDataClass.swift in Sources */,
+				80DB5CDF25E6949000A631CA /* NetworkManager.swift in Sources */,
+				8076F89C25EBFA64000F01DB /* BusRouteTableViewCell.swift in Sources */,
+				8056A4A725EA31B600B35964 /* UIView+Utils.swift in Sources */,
+				80DB5CE325E6A50400A631CA /* DashboardViewController.swift in Sources */,
+				80DB5CD825E6827800A631CA /* RouteModel.swift in Sources */,
+				8088FAED25E941860002FCB0 /* Date+Utils.swift in Sources */,
+				80DB5CAF25E67BC500A631CA /* AppDelegate.swift in Sources */,
+				807D925325E8DE3A00FAEA12 /* BusRoute.xcdatamodeld in Sources */,
+				807D925B25E8EA1600FAEA12 /* BusRouteList+CoreDataProperties.swift in Sources */,
+				80DB5CB125E67BC500A631CA /* SceneDelegate.swift in Sources */,
+				8076F89A25EBFA64000F01DB /* UIAlertController+Utils.swift in Sources */,
+				80DB5CE125E69BDF00A631CA /* BusRouteViewController.swift in Sources */,
+				808FFA8C25E7D1B2006BCC49 /* BusRouteListModel.swift in Sources */,
+				807D924F25E8DE0A00FAEA12 /* CoreDataManager.swift in Sources */,
+				80DB5CE525E797F400A631CA /* BusRouteViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80DB5CBD25E67BD500A631CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DB5CC625E67BD500A631CA /* BusRouteTests.swift in Sources */,
+				808FFA8E25E80D2C006BCC49 /* MockBusRouteViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80DB5CC325E67BD500A631CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80DB5CAA25E67BC500A631CA /* BusRoute */;
+			targetProxy = 80DB5CC225E67BD500A631CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80DB5CB425E67BC500A631CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80DB5CB525E67BC500A631CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80DB5CB925E67BD400A631CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80DB5CBA25E67BD400A631CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80DB5CC825E67BD500A631CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80DB5CC925E67BD500A631CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80DB5CCB25E67BD500A631CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRW59G6AAW;
+				INFOPLIST_FILE = BusRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayank.BusRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		80DB5CCC25E67BD500A631CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRW59G6AAW;
+				INFOPLIST_FILE = BusRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayank.BusRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		80DB5CCE25E67BD500A631CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX5SL3R98W;
+				INFOPLIST_FILE = BusRouteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayank.BusRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusRoute.app/BusRoute";
+			};
+			name = Debug;
+		};
+		80DB5CCF25E67BD500A631CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX5SL3R98W;
+				INFOPLIST_FILE = BusRouteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayank.BusRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusRoute.app/BusRoute";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80DB5CA625E67BC500A631CA /* Build configuration list for PBXProject "BusRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB5CC825E67BD500A631CA /* Debug */,
+				80DB5CC925E67BD500A631CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB5CCA25E67BD500A631CA /* Build configuration list for PBXNativeTarget "BusRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB5CCB25E67BD500A631CA /* Debug */,
+				80DB5CCC25E67BD500A631CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80DB5CCD25E67BD500A631CA /* Build configuration list for PBXNativeTarget "BusRouteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80DB5CCE25E67BD500A631CA /* Debug */,
+				80DB5CCF25E67BD500A631CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		807D925125E8DE3A00FAEA12 /* BusRoute.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				807D925225E8DE3A00FAEA12 /* BusRoute.xcdatamodel */,
+			);
+			currentVersion = 807D925225E8DE3A00FAEA12 /* BusRoute.xcdatamodel */;
+			path = BusRoute.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80DB5CA325E67BC500A631CA /* Project object */;
+}
